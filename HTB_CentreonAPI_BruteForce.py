@@ -3,7 +3,7 @@
 import requests
 import sys
 
-url = "http://10.10.10.157/centreon/api/index.php?action=authenticate"
+url = "http://127.0.0.1/centreon/api/index.php?action=authenticate"
 expression = "Bad credentials"
 
 def brute(username,password):
